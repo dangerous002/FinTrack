@@ -1,6 +1,27 @@
-﻿################################################################################
-# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
-################################################################################
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
 
-/.vs
-/FinTrack/.vs/FinTrack.slnx/v18
+# Сборка
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+publish/
+
+# Тесты и покрытие
+TestResults/
+coverage*/
+*.coverage
+*.coveragexml
+
+# Базы данных
+*.db
+*.db-shm
+*.db-wal
+
+# Прочее
+.idea/
+.vscode/
+*.log
