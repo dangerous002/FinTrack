@@ -25,4 +25,10 @@
     <ProjectReference Include="..\..\src\FinTrack.Wpf\FinTrack.Wpf.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Application\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Fakes\" />
+  </ItemGroup>
+
 </Project>
